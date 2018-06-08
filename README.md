@@ -1,4 +1,5 @@
 # pg-concat
+[![npm (scoped)](https://img.shields.io/npm/v/@wmfs/pg-concat.svg)](https://www.npmjs.com/package/@wmfs/pg-concat) [![Build Status](https://travis-ci.org/wmfs/pg-concat.svg?branch=master)](https://travis-ci.org/wmfs/pg-concat) [![codecov](https://codecov.io/gh/wmfs/pg-concat/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/pg-concat) [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/pg-concat/badge)](https://www.codefactor.io/repository/github/wmfs/pg-concat) [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmfs/tymly/blob/master/packages/pg-concat/LICENSE)
 
 
