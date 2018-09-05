@@ -10,9 +10,9 @@ describe('Run some basic tests', function () {
   it('Should generate an SQL statement', function (done) {
     let statement = pgConcat(
       [
-        {columnName: 'incident_no'},
+        { columnName: 'incident_no' },
         '/',
-        {columnName: 'year', default: 1900}
+        { columnName: 'year', default: 1900 }
       ]
     )
     expect(statement).to.not.equal(null)
