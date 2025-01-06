@@ -25,13 +25,14 @@
   "devDependencies": {
     "chai": "4.5.0",
     "codecov": "3.8.3",
-    "conventional-changelog-metahub": "4.0.1",
+    "conventional-changelog-conventionalcommits": "8.0.0",
     "cz-conventional-changelog": "3.3.0",
     "mocha": "11.0.1",
     "nyc": "17.1.0",
     "semantic-release": "24.2.1",
     "standard": "17.1.2",
     "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/release-notes-generator": "14.0.3",
     "@semantic-release/git": "10.0.1"
   },
   "scripts": {
@@ -50,7 +51,56 @@
   },
   "release": {
     "analyzeCommits": {
-      "preset": "angular",
+      "preset": "conventionalcommits",
+    "presetConfig": {
+      "types": [
+        {
+          "breaking": true,
+          "type": "feat!",
+          "section": "BREAKING"
+        },
+        {
+          "type": "feat",
+          "section": "New Feature(s) :rocket:"
+        },
+        {
+          "type": "fix",
+          "section": "Bug Fix(es) :bug:"
+        },
+        {
+          "type": "docs",
+          "section": "Documentation Changes :memo:"
+        },
+        {
+          "type": "refactor",
+          "section": "Code Refactor :recycle:"
+        },
+        {
+          "type": "test",
+          "section": "Tests :alembic:"
+        },
+        {
+          "type": "perf",
+          "section": "Performance Improvement(s) :zap:"
+        },
+        {
+          "type": "build",
+          "section": "Build system dependencies :hammer:"
+        },
+        {
+          "type": "chore",
+          "section": "Chores :pencil2:"
+        },
+        {
+          "type": "ci",
+          "section": "CICD Configuration Changes :construction_worker:"
+        },
+        {
+          "type": "style",
+          "section": "Code Styling :art:"
+        }
+      ]
+    },
       "releaseRules": [
         {
           "type": "build",
