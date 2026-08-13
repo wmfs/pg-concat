@@ -1,3 +1,5 @@
+## [1.18.1](https://github.com/wmfs/pg-concat/compare/v1.18.0...v1.18.1) (2026-08-13)
+
 ## [1.18.0](https://github.com/wmfs/pg-concat/compare/v1.17.0...v1.18.0) (2025-10-21)
 
 ### Build system dependencies :hammer:
