@@ -1,3 +1,21 @@
+## [1.19.0](https://github.com/wmfs/pg-concat/compare/v1.18.1...v1.19.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([397d80b](https://github.com/wmfs/pg-concat/commit/397d80b99e2815630f44abd776aef79972a38c6b))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#384](https://github.com/wmfs/pg-concat/issues/384)) ([d1b221b](https://github.com/wmfs/pg-concat/commit/d1b221be37604e5ec93effe479c3d9e7ed537e5b))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#389](https://github.com/wmfs/pg-concat/issues/389)) ([ec82290](https://github.com/wmfs/pg-concat/commit/ec8229091a79c11b178f6c742671b1eb3c659842))
+* **deps-dev:** update dependency mocha to v12 ([#385](https://github.com/wmfs/pg-concat/issues/385)) ([27d59da](https://github.com/wmfs/pg-concat/commit/27d59da26c6b082a208df0cb791bb7e0e1f79f17))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#386](https://github.com/wmfs/pg-concat/issues/386)) ([d8f3587](https://github.com/wmfs/pg-concat/commit/d8f358726adfcb60adfdbc463d1dff66dded4674))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#387](https://github.com/wmfs/pg-concat/issues/387)) ([1925d93](https://github.com/wmfs/pg-concat/commit/1925d93a901840afa5d65f584aa197c1f937b3ee))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#388](https://github.com/wmfs/pg-concat/issues/388)) ([6c8e79e](https://github.com/wmfs/pg-concat/commit/6c8e79e4a64059c4b3add25b39145c6990a2c8ba))
+* **deps:** update dependency lodash to v4.18.1 [security] ([#362](https://github.com/wmfs/pg-concat/issues/362)) ([df68c96](https://github.com/wmfs/pg-concat/commit/df68c96e2970a936df5db35078d08945857df470))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#391](https://github.com/wmfs/pg-concat/issues/391)) ([cfe1bc5](https://github.com/wmfs/pg-concat/commit/cfe1bc51f5d3cc9dcc6c268f18eabb35daf60c5d))
+* use shared renovate preset [sc-34117] ([#390](https://github.com/wmfs/pg-concat/issues/390)) ([46be218](https://github.com/wmfs/pg-concat/commit/46be218006c14b6e90ae2d38a84f582585cfbe13))
+
 ## [1.18.1](https://github.com/wmfs/pg-concat/compare/v1.18.0...v1.18.1) (2026-08-13)
 
 ## [1.18.0](https://github.com/wmfs/pg-concat/compare/v1.17.0...v1.18.0) (2025-10-21)
